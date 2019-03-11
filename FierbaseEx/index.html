@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fierbase</title>
+</head>
+<body>
+<div class="res-container"></div>
+
+    <div class="formcontainer">
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        <br>
+        <input type="text" name="location" placeholder="Location">
+        <br>
+        <br>
+        <button class="submit">submit</button>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+        <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDAknn7n2e62J7mEhiMSfPZzyMcGZJ-2NU",
+            authDomain: "crud-5c998.firebaseapp.com",
+            databaseURL: "https://crud-5c998.firebaseio.com",
+            projectId: "crud-5c998",
+            storageBucket: "crud-5c998.appspot.com",
+            messagingSenderId: "994610815342"
+        };
+        firebase.initializeApp(config);
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node main.js"
+  },
+  "author": "Mo",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
